@@ -4,13 +4,19 @@ body {
     background-color: hsl(185, 75%, 39%);
     margin: 0;
 }
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container {
     width: 70%;
     margin: 5em auto;
     text-align: center;
     font-family: 'kumbh sans';
     font-size: 0.8rem;
-    display: block;
+
     
 }
 img {
